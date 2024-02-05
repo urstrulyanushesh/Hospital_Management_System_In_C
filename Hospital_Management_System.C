@@ -493,7 +493,7 @@ void mainmenu()
 			 
 		}
 		fclose(pk);
-		printf("\n\n\n\t\t\t\t\t\tPress any key to continue...!!!");
+		printf("\n\n\n\t\t\t\t\t\t Press any key to continue...!!!");
 		getch();
 		system("cls");
 	}
@@ -505,7 +505,7 @@ void mainmenu()
 		title();
 		FILE *n;
 		printf("\n\n\n\t\t\t\t\t\t*******Remove Doctor***********");
-		printf("\n\n\n\t\t\t\t\t\t Enter Doctor Id:");
+		printf("\n\n\n\t\t\t\t\t\t Enter Doctor ID:");
 		scanf("%d",&id);
 		pk=fopen("doctor.txt","rb");
 		n=fopen("temp.txt","wb");
@@ -534,7 +534,7 @@ void mainmenu()
     }
 	else
 	{
-        printf("\n\n\t\t\t\tRecord Not Found !");
+        printf("\n\n\t\t\t\t\t\t Record Not Found !");
     }
 	fclose(pk);
     fclose(n);
