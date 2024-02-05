@@ -5,6 +5,7 @@
 #include<conio.h>
 #include<windows.h>
 
+//declaring the functions
 void welcomescreen();
 void title();
 void addUsers();
@@ -20,7 +21,7 @@ void adddoctor();
 void listdoctor();
 void removedoctor();
 void password();
-
+//for creating password
 struct User {
     char username[50];
     char password[50];
